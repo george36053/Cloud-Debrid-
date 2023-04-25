@@ -16,5 +16,15 @@ namespace Debrid_Skeleton
         {
             InitializeComponent();
         }
+
+        private void submitEmail_Button_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Thanks, an email has been sent! Please follow the directions!");
+        }
+
+        private void button_Exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
